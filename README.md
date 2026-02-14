@@ -1,6 +1,6 @@
-# Paradise Nursery Shopping Application
+# e-plantShopping
 
-Welcome to the **Paradise Nursery Shopping Application** project! This project is the culmination of a React course, designed to build a fully functional and interactive front-end application for a nursery shopping experience.
+Welcome to the **e-plantShopping Application** project! This project is the culmination of a React course, designed to build a fully functional and interactive front-end application for a nursery shopping experience.
 
 ---
 
