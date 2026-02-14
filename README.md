@@ -1,73 +1,99 @@
-# Welcome to your Lovable project
+# Paradise Nursery Shopping Application
 
-## Project info
+Welcome to the **Paradise Nursery Shopping Application** project! This project is the culmination of a React course, designed to build a fully functional and interactive front-end application for a nursery shopping experience.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **Landing Page**
+  - A visually engaging entry point.
+  - Includes:
+    - Company name.
+    - A paragraph about the company.
+    - Background image.
+    - A "Get Started" button linking to the product listing page.
 
-**Use Lovable**
+- **Product Listing Page**
+  - Browse a collection of houseplants categorized by shared features (e.g., air purifying or aromatic).
+  - Includes:
+    - Company name and logo (with navigation to the landing page).
+    - Tagline.
+    - Shopping cart icon showing the number of items.
+    - Cards for each plant, displaying:
+      - Thumbnail image.
+      - Name, price, and brief description.
+      - An "Add to Cart" button that updates dynamically to "Added to Cart".
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **Shopping Cart Page**
+  - Review, modify, and finalize your shopping list.
+  - Includes:
+    - Cards for each plant in the cart.
+    - Features for modifying the quantity (increase or decrease buttons).
+    - Delete option to remove items.
+    - Subtotals per plant and a grand total for all items.
+    - Checkout button.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## User Interactions and Behavior
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Adding an item to the cart:
+  - Disables the "Add to Cart" button and updates the cart icon in the header.
+- Removing all items of a type from the cart:
+  - Re-enables the "Add to Cart" button on the product listing page.
+  - Updates the cart icon.
+- Dynamic updates:
+  - Total cost and item count dynamically reflect user actions.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## Technologies Used
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **React**: Front-end framework for building user interfaces.
+- **TypeScript**: Typed superset of JavaScript for improved code quality and maintainability.
+- **CSS**: Styles for creating an appealing user interface.
+- Additional libraries or tools as needed.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Project Structure
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+1. **Landing Page**: Introduces users to the company and application.
+2. **Product Listing Page**: Allows users to explore available plants and add them to their cart.
+3. **Shopping Cart Page**: Provides a comprehensive view of selected items with options to modify and finalize the cart.
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Setup Instructions
 
-**Use GitHub Codespaces**
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/paradise-nursery.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd paradise-nursery
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+4. Run the development server:
+    ```bash
+    npm start
+    ```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The application will be available at `http://localhost:3000/`.
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## How to Use
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. Start at the landing page to learn about Paradise Nursery.
+2. Click "Get Started" to browse the product listing.
+3. Add plants to your cart by clicking "Add to Cart".
+4. Navigate to the shopping cart page to review and adjust your items.
+5. Proceed to checkout to finalize your order.
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
